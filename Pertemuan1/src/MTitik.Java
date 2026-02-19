@@ -1,7 +1,7 @@
 /* Nama File    : MTitik.java
  * Deskripsi    : berisi program utama untuk menggunakan class Titik
- * Pembuat      : 
- * Tanggal      : 
+ * Pembuat      : Gregorius Septiano Ariadi
+ * Tanggal      : Kamis, 19 Februari 2026
  */
 
 public class MTitik {
