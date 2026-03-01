@@ -23,8 +23,8 @@ public class MTitik {
         Titik T4 = new Titik(3,5);   // Membuat objek titik T2 (3,5)
 
         System.out.println("Jumlah Objek Titik = " + Titik.getCounterTitik());
-        System.out.println("Jumlah Objek Titik = " + T2.getCounterTitik());
-        T2.printCounterTitik();
+        // System.out.println("Jumlah Objek Titik = " + T2.getCounterTitik());
+        // T2.printCounterTitik();
         
         T3.printTitik();
         T4.printTitik();

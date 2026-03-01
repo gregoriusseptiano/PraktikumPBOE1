@@ -14,7 +14,6 @@ public class Titik {
     // konstruktor untuk membuat titik (0,0)
     public Titik(){
         this(0,0);
-        counterTitik++;
     }
 
     // konstruktor untuk membuat dengan nilai absis dan ordinat tertentu 
@@ -66,10 +65,14 @@ public class Titik {
 
     // menentukan kuadran
     public int getKuadran(){
-        if(absis > 0 && ordinat > 0) return 1;
-        if(absis < 0 && ordinat > 0) return 2;
-        if(absis < 0 && ordinat < 0) return 3;
-        if(absis > 0 && ordinat < 0) return 4;
+        if (absis > 0 && ordinat > 0) 
+            return 1;
+        if (absis < 0 && ordinat > 0) 
+            return 2;
+        if (absis < 0 && ordinat < 0) 
+            return 3;
+        if (absis > 0 && ordinat < 0) 
+            return 4;
         return 0; // jika di sumbu
     }
 

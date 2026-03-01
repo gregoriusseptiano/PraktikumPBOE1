@@ -60,9 +60,9 @@ public class Titik {
         return counterTitik;
     }
 
-    public void printCounterTitik(){
-        System.out.println(this.counterTitik);
-    }   
+    // public void printCounterTitik(){
+    //     System.out.println(this.counterTitik);
+    // }   
 
     // menentukan kuadran
     public int getKuadran(){
