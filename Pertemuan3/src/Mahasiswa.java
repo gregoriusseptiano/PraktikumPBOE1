@@ -123,6 +123,4 @@ public class Mahasiswa {
         System.out.println("No Plat Kendaraan : " + kendaraan.getNoPlat());
         System.out.println("Jenis Kendaraan : " + kendaraan.getJenis());
     }
-
-
 }
