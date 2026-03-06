@@ -1,3 +1,9 @@
+/* Nama File    : MMahasiswa.java
+ * Deskripsi    : berisi program utama untuk menggunakan class Mahasiswa
+ * Pembuat      : Gregorius Septiano Ariadi
+ * Tanggal      : Kamis, 5 Maret 2026
+ */
+
 public class MMahasiswa {
 
     public static void main(String[] args) {

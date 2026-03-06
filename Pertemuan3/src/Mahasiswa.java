@@ -1,19 +1,25 @@
+/* Nama File    : Mahasiswa.java
+ * Deskripsi    : berisi atribut dan method dalam class Mahasiswa
+ * Pembuat      : Gregorius Septiano Ariadi
+ * Tanggal      : Kamis, 5 Maret 2026
+ */
+
 import java.util.ArrayList;
 
 public class Mahasiswa {
-
-    /*************** ATRIBUT ***************/
+    //===== ATRIBUT =====//
     private String nim;
     private String nama;
     private String prodi;
-    private ArrayList<MataKuliah> listMatKul;
+    ArrayList<MataKuliah> listMatKul;
     private Dosen dosenWali;
     private Kendaraan kendaraan;
 
-    /*************** KONSTRUKTOR ***************/
+    //===== METHOD =====//
 
     // konstruktor tanpa parameter
     public Mahasiswa() {
+        this("", "", "");
         this.listMatKul = new ArrayList<>();
     }
 
@@ -25,7 +31,23 @@ public class Mahasiswa {
         this.listMatKul = new ArrayList<>();
     }
 
-    /*************** SELEKTOR (GETTER) ***************/
+    // Getter
+
+    // menghitung jumlah SKS
+    public int getJumlahSKS() {
+        int total = 0;
+
+        for (int i = 0; i < listMatKul.size(); i++) {
+            total = total + listMatKul.get(i).getSks();
+        }
+
+        return total;
+    }
+
+    // menghitung jumlah mata kuliah
+    public int getJumlahMatKul() {
+        return listMatKul.size();
+    }
 
     public String getNim() {
         return this.nim;
@@ -51,8 +73,7 @@ public class Mahasiswa {
         return this.kendaraan;
     }
 
-    /*************** MUTATOR (SETTER) ***************/
-
+    // Setter
     public void setNim(String nim) {
         this.nim = nim;
     }
@@ -80,46 +101,28 @@ public class Mahasiswa {
         listMatKul.add(newMatKul);
     }
 
-    // menghitung jumlah SKS
-    public int getJumlahSKS() {
-        int total = 0;
-
-        for (int i = 0; i < listMatKul.size(); i++) {
-            total += listMatKul.get(i).getSks();
-        }
-
-        return total;
-    }
-
-    // menghitung jumlah mata kuliah
-    public int getJumlahMatKul() {
-        return listMatKul.size();
-    }
-
     // menampilkan data mahasiswa
     public void printMhs() {
         System.out.println("NIM  : " + this.nim);
         System.out.println("Nama : " + this.nama);
-        System.out.println("Prodi: " + this.prodi);
+        System.out.println("Prodi : " + this.prodi);
     }
 
-  // menampilkan detail mahasiswa
-    public void printDetailMhs() {
-
-    printMhs();
-
-    System.out.println("\nDaftar Mata Kuliah:");
-    for (int i = 0; i < listMatKul.size(); i++) {
-        System.out.println("- " + listMatKul.get(i).getNamaMatkul());
+    public void printDetailMhs(){
+        System.out.println("NIM : " + this.nim);
+        System.out.println("Nama : " + this.nama);
+        System.out.println("Prodi : " + this.prodi);
+        System.out.println("Daftar Mata Kuliah : ");
+        int i;
+        for(i = 0; i < listMatKul.size(); i++){
+            System.out.println(listMatKul.get(i).getNamaMatkul());
+        }
+        
+        System.out.println("NIP Dosen Wali : " + dosenWali.getNip());
+        System.out.println("Nama Dosen Wali : " + dosenWali.getNama());
+        System.out.println("No Plat Kendaraan : " + kendaraan.getNoPlat());
+        System.out.println("Jenis Kendaraan : " + kendaraan.getJenis());
     }
 
-    System.out.println("\nJumlah Mata Kuliah: " + getJumlahMatKul());
-    System.out.println("Jumlah SKS: " + getJumlahSKS());
-
-    System.out.println("\nDosen Wali: " + dosenWali.getNama());
-    System.out.println("Kendaraan: " +
-            kendaraan.getJenis() + " - " +
-            kendaraan.getNoPlat());
-}
 
 }

@@ -1,7 +1,16 @@
+/* Nama File    : MataKuliah.java
+ * Deskripsi    : berisi atribut dan method dalam class MataKuliah
+ * Pembuat      : Gregorius Septiano Ariadi
+ * Tanggal      : Kamis, 5 Maret 2026
+ */
+
 public class MataKuliah {
+    //===== ATRIBUT =====//
     private String idMatKul;
     private String namamatkul;
     private int sks;
+
+    //===== METHOD =====//
 
     // Konstruktor tanpa parameter
     public MataKuliah() {

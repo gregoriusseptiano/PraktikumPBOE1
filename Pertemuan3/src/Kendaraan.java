@@ -1,6 +1,15 @@
+/* Nama File    : Kendaraan.java
+ * Deskripsi    : berisi atribut dan method dalam class Kendaraan
+ * Pembuat      : Gregorius Septiano Ariadi
+ * Tanggal      : Kamis, 5 Maret 2026
+ */
+
 public class Kendaraan {
+    //===== ATRIBUT =====//
     private String noPlat;
     private String jenis;
+
+    //===== METHOD =====//
 
     // Konstruktor tanpa parameter
     public Kendaraan() {
