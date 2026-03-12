@@ -9,7 +9,6 @@ public class Lingkaran extends BangunDatar {
     // Atribut
     public Lingkaran(){
         this.jari = 0;
-        setJmlSisi(1);
     }
 
     // Method
@@ -29,7 +28,7 @@ public class Lingkaran extends BangunDatar {
     }
 
     public double getLuas(){
-        return Math.PI * 2 * this.jari;
+        return Math.PI * (this.jari * this.jari);
     }
 
     public double getKeliling(){

@@ -42,7 +42,7 @@ public class Persegi extends BangunDatar {
     }
 
     public double getDiagonal(){
-        return this.sisi * Math.sqrt(sisi * sisi);
+        return Math.sqrt(this.sisi*this.sisi + this.sisi*this.sisi);
     }
 
     @Override

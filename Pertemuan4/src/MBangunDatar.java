@@ -17,8 +17,6 @@ public class MBangunDatar {
         System.out.println("================================");
         persegi.printInfo();
 
-
-
         System.out.println("\n ===== LINGKARAN =====");
         Lingkaran lingkaran = new Lingkaran(10, "Merah", "Merah", "Tebal");
         System.out.println("Luas Lingkaran : " + lingkaran.getLuas());
