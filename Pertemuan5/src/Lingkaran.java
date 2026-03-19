@@ -46,17 +46,17 @@ public class Lingkaran extends BangunDatar implements IResize {
     }
 
     @Override
-    public void zoomIn() { 
-        jari *= 1.1; // Menambah ukuran sebesar 10%
+    public void zoomIn() {
+        jari = jari * 1.1;
     }
 
     @Override
     public void zoomOut() {
-        jari *= 0.9; // Mengurangi ukuran sebesar 10%
+        jari = jari * 0.9;
     }
 
     @Override
     public void zoom(int percent) {
-        jari *= (1 + percent / 100.0); // Menambah ukuran sebesar persentase tertentu
+        jari = jari * (percent / 100.0);
     }
 }

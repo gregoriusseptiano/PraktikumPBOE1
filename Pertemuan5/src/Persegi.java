@@ -55,17 +55,17 @@ public class Persegi extends BangunDatar implements IResize {
 
     @Override
     public void zoomIn() {
-        sisi *= 1.1; // Menambah ukuran sebesar 10%
+        sisi = sisi * 1.1;
     }
 
     @Override
     public void zoomOut() {
-        sisi *= 0.9; // Mengurangi ukuran sebesar 10%
+        sisi = sisi * 0.9;
     }
 
     @Override
     public void zoom(int percent) {
-        sisi *= (1 + percent / 100.0); // Menambah ukuran sebesar persentase tertentu
+        sisi = sisi * (percent / 100.0);
     }
 }
 

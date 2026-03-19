@@ -5,12 +5,12 @@
  */
 
 public interface IResize {
-    //menambah ukuran sebesar 10%
+    //menambah ukuran menjadi 10% lebih besar
     public void zoomIn();
 
-    //mengurangi ukuran sebesar 10%
+    //mengurangi ukuran menjadi 10% lebih kecil
     public void zoomOut();
 
-    //menambah ukuran sebesar persentase tertentu
+    //menskalakan ukuran sesuai dengan input percent yang diberikan
     public void zoom(int percent);
 }
