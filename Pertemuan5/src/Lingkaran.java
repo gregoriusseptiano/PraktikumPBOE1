@@ -47,16 +47,16 @@ public class Lingkaran extends BangunDatar implements IResize {
 
     @Override
     public void zoomIn() {
-        jari = jari * 1.1;
+        this.jari = this.jari * 1.1;
     }
 
     @Override
     public void zoomOut() {
-        jari = jari * 0.9;
+        this.jari = this.jari * 0.9;
     }
 
     @Override
     public void zoom(int percent) {
-        jari = jari * (percent / 100.0);
+        this.jari = this.jari * (percent / 100.0);
     }
 }
