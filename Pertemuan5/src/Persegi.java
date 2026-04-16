@@ -1,7 +1,7 @@
 /* Nama File    : Persegi.java
  * Deskripsi    : Membuat class persegi dengan inherit BangunDatar
  * Pembuat      : Gregorius Septiano Ariadi / 24060124120026
- * Tanggal      : Kamis, 19 Maret 2026
+ * Tanggal      : Kamis, 16 April 2026
  */
 
 public class Persegi extends BangunDatar implements IResize {

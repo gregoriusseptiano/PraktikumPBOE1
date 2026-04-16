@@ -1,7 +1,7 @@
 /* Nama File    : BangunDatar.java
  * Deskripsi    : Membuat class BangunDatar sebagai parent dari Persegi dan Lingkaran
  * Pembuat      : Gregorius Septiano Ariadi / 24060124120026
- * Tanggal      : Kamis, 19 Maret 2026
+ * Tanggal      : Kamis, 16 April 2026
  */
 
 public abstract class BangunDatar {

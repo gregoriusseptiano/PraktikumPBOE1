@@ -2,7 +2,7 @@
  * Deskripsi    : Program penggunaan exception buatan sendiri
  *                Pengenalan klausa 'throw' dan 'throws'
  * Pembuat      : Gregorius Septiano Ariadi / 24060124120026
- * Tanggal      : Kamis, 26 Maret 2026
+ * Tanggal      : Kamis, 16 April 2026
  */
 
 public class AngkaSial {

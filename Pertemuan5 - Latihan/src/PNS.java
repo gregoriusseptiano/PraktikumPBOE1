@@ -1,7 +1,7 @@
 /* Nama File    : PNS.java
  * Deskripsi    : Membuat class PNS dengan inherit Manusia dan implement Pajak
  * Pembuat      : Gregorius Septiano Ariadi / 24060124120026
- * Tanggal      : Kamis, 19 Maret 2026
+ * Tanggal      : Kamis, 16 April 2026
  */
 
 import java.time.LocalDate;

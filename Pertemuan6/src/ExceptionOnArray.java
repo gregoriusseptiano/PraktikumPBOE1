@@ -1,7 +1,7 @@
 /* Nama File    : ExceptionOnArray.java
  * Deskripsi    : Program penggunaan eksepsi menggunakan class library Java
  * Pembuat      : Gregorius Septiano Ariadi / 24060124120026
- * Tanggal      : Kamis, 26 Maret 2026
+ * Tanggal      : Kamis, 16 April 2026
  */
 
 public class ExceptionOnArray {

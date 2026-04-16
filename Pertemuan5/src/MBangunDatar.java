@@ -1,7 +1,7 @@
 /* Nama File    : MBangunDatar.java
  * Deskripsi    : Membuat class MBangunDatar untuk menguji class Persegi dan Lingkaran
  * Pembuat      : Gregorius Septiano Ariadi / 24060124120026
- * Tanggal      : Kamis, 19 Maret 2026
+ * Tanggal      : Kamis, 16 April 2026
  */
 
 public class MBangunDatar {
@@ -27,6 +27,7 @@ public class MBangunDatar {
         lingkaran.printInfo();
 
         System.out.println("\n ===== IMPLEMENTASI ABSTRACT ====="); 
+        // BangunDatar B1 = new BangunDatar(); 
         BangunDatar P1 = new Persegi(10, "Kuning", "Tebal");
         Persegi P2 = new Persegi(5, "Hijau", "Tipis");
         BangunDatar L1 = new Lingkaran(7, "Ungu", "Tebal", "Tebal");
@@ -37,5 +38,10 @@ public class MBangunDatar {
         System.out.println("Luas Lingkaran L2 : " + L2.getLuas());
         System.out.println("Apakah luas P1 sama dengan luas P2? " + P1.isEqualLuas(P2));
         System.out.println("Apakah luas L1 sama dengan luas L2? " + L1.isEqualLuas(L2));
+
+        // L1.zoomIn();
+        L2.zoomOut();
+        L2.zoomIn();
+        // L1.getJari();                 
     }
 }
