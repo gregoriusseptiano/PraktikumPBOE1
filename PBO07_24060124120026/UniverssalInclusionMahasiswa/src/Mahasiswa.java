@@ -6,7 +6,7 @@
  * Tanggal      : Kamis, 23 April 2026
  */
 
-public class Mahasiswa extends Civitasakademika {
+public class Mahasiswa extends CivitasAkademika {
     private String NIM;
     private Dosen dosenWali;
 

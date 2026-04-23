@@ -4,7 +4,7 @@
  * Tanggal      : Kamis, 23 April 2026
  */
 
-public class Dosen extends Civitasakademika {
+public class Dosen extends CivitasAkademika {
     private String NIP;
 
     public Dosen(String nama, String NIP) {

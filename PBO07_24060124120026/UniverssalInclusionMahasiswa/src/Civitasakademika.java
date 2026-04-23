@@ -6,10 +6,10 @@
  * Tanggal      : Kamis, 23 April 2026
  */
 
-public class Civitasakademika {
+public class CivitasAkademika {
     protected String nama;
 
-    public Civitasakademika(String nama) {
+    public CivitasAkademika(String nama) {
         this.nama = nama;
     }
 
