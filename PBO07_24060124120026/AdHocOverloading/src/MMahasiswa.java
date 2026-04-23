@@ -1,4 +1,12 @@
-public public class MMahasiswa {
+/* Nama File    : MMahasiswa.java
+ * Deskripsi    : membuat aplikasi untuk menguji konstruktor dan method overloading pada class Mahasiswa. 
+                  Terdapat 3 konstruktor dan 3 method setProgramStudi yang berbeda parameter. Juga terdapat method tampil 
+                  untuk menampilkan informasi mahasiswa.
+ * Pembuat      : Gregorius Septiano Ariadi / 24060124120026
+ * Tanggal      : Kamis, 23 April 2026
+ */
+
+public class MMahasiswa {
     public static void main(String[] args) {
 
         // c. Konstruktor tanpa parameter
@@ -7,7 +15,7 @@ public public class MMahasiswa {
         m1.tampil();
 
         // d. Konstruktor 3 parameter
-        Mahasiswa m2 = new Mahasiswa("120037", "Fahri", "Informatika");
+        Mahasiswa m2 = new Mahasiswa("120026", "Gregorius Septiano Ariadi", "Informatika");
         System.out.println("Objek m2 (parameter):");
         m2.tampil();
 

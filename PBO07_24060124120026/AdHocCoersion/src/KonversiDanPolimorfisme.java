@@ -1,3 +1,8 @@
+/* Nama File    : KonversiDanPolimorfisme.java
+ * Deskripsi    : Membuat dan belajar tentang konversi tipe data dan parsing
+ * Pembuat      : Gregorius Septiano Ariadi / 24060124120026
+ * Tanggal      : Kamis, 23 April 2026
+ */
 
 public class KonversiDanPolimorfisme {
     public static void main(String[] args) {

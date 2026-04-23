@@ -1,3 +1,11 @@
+/* Nama File    : Mahasiswa.java
+ * Deskripsi    : Membuat class Mahasiswa sebagai subclass dari Civitasakademika dengan atribut NIM dan dosen wali. 
+                  Class ini memiliki method untuk mengatur dosen wali dan menampilkan data mahasiswa, termasuk NIM, 
+                  nama, dan nama dosen wali. Method getNomor di override untuk mengembalikan NIM sebagai nomor identitas mahasiswa.
+ * Pembuat      : Gregorius Septiano Ariadi / 24060124120026
+ * Tanggal      : Kamis, 23 April 2026
+ */
+
 public class Mahasiswa extends Civitasakademika {
     private String NIM;
     private Dosen dosenWali;

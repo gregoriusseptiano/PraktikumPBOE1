@@ -1,3 +1,12 @@
+/* Nama File    : Seminar.java
+ * Deskripsi    : Membuat class Seminar untuk mengelola peserta seminar yang terdiri dari berbagai jenis civitas akademika, seperti 
+                  mahasiswa, dosen, dan tendik. Class ini memiliki atribut array untuk menyimpan peserta seminar dan metode untuk 
+                  menghitung jumlah peserta, melakukan registrasi peserta, menampilkan daftar peserta, dan menghitung jumlah mahasiswa 
+                  yang terdaftar dalam seminar. 
+ * Pembuat      : Gregorius Septiano Ariadi / 24060124120026
+ * Tanggal      : Kamis, 23 April 2026
+ */
+
 public class Seminar {
     private Civitasakademika[] pesertas = new Civitasakademika[100];
     private int banyakPeserta;

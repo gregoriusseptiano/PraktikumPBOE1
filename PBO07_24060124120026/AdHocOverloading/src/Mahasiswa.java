@@ -1,3 +1,11 @@
+/* Nama File    : Mahasiswa.java
+ * Deskripsi    : Membuat dan belajar tentang polimorfisme adhoc overloading pada class Mahasiswa dengan atribut NIM, Nama, dan Program Studi. 
+                  Terdapat 3 konstruktor dan 3 method setProgramStudi yang berbeda parameter. Juga terdapat method 
+                  tampil untuk menampilkan informasi mahasiswa.
+ * Pembuat      : Gregorius Septiano Ariadi / 24060124120026
+ * Tanggal      : Kamis, 23 April 2026
+ */
+
 public class Mahasiswa {
     private String NIM;
     private String Nama;

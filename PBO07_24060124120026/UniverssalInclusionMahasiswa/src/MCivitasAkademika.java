@@ -1,4 +1,12 @@
-public class Main {
+/* Nama File    : Main.java
+ * Deskripsi    : Membuat class Main untuk menguji konsep polimorfisme universal inclusion dengan membuat array dari tipe Anabul 
+                  yang berisi objek-objek dari kelas Kucing, Anjing, dan Burung. Kemudian, menggunakan loop untuk memanggil method gerak dan 
+                  bersuara pada setiap objek dalam array, sehingga menunjukkan perilaku yang berbeda sesuai dengan jenis hewan peliharaan yang diwakili oleh masing-masing objek.
+ * Pembuat      : Gregorius Septiano Ariadi / 24060124120026
+ * Tanggal      : Kamis, 23 April 2026
+ */
+
+public class MCivitasAkademika {
     public static void main(String[] args) {
 
         // e. buat dosen
@@ -6,7 +14,7 @@ public class Main {
         Dosen d2 = new Dosen("Bu Sari", "D002");
 
         // e. buat mahasiswa
-        Mahasiswa m1 = new Mahasiswa("Fahri", "M001", d1);
+        Mahasiswa m1 = new Mahasiswa("Tio", "M001", d1);
         Mahasiswa m2 = new Mahasiswa("Andi", "M002", d1);
         Mahasiswa m3 = new Mahasiswa("Sinta", "M003", d2);
         Mahasiswa m4 = new Mahasiswa("Rina", "M004", d2);
