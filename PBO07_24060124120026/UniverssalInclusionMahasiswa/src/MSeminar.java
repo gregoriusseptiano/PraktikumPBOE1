@@ -7,7 +7,7 @@
  * Tanggal      : Kamis, 23 April 2026
  */
 
-public class MCivitasAkademika {
+public class MSeminar {
     public static void main(String[] args) {
 
         // e. buat dosen
