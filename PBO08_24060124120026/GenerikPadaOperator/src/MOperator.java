@@ -1,5 +1,5 @@
 /* Nama File    : MOperator.java
- * Deskripsi    : Class utama untuk menguji fungsi generik pada operator tukar dan bobot.
+ * Deskripsi    : Class utama untuk menguji fungsi generik pada operator tukar dan bobot
  * Pembuat      : Gregorius Septiano Ariadi / 24060124120026
  * Tanggal      : Kamis, 30 April 2026
  */
