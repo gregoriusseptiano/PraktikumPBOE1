@@ -5,14 +5,8 @@
  */
 
 public class Data<T> {
-    private T[] ruang;
-    private int banyak;
-
-    @SuppressWarnings("unchecked")
-    public Data() {
-        ruang = (T[]) new Object[100];
-        banyak = 0;
-    }
+    private static Object[] ruang = new Object[100];
+    private static int banyak = 0;
 
     // set isi 
     public void setIsi(int posisi, T nilai) {
@@ -21,8 +15,9 @@ public class Data<T> {
     }
 
     // get isi 
+    @SuppressWarnings("unchecked")
     public T getIsi(int posisi) {
-        return ruang[posisi - 1];
+        return (T) ruang[posisi - 1];
     }
 
     // get size
