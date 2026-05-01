@@ -1,10 +1,10 @@
-/* Nama File    : MADatum.java
+/* Nama File    : MDatum.java
  * Deskripsi    : Program untuk menguji kelas Datum dengan berbagai jenis Anabul
  * Pembuat      : Gregorius Septiano Ariadi / 24060124120026
  * Tanggal      : Kamis, 30 April 2026
  */
 
-public class MADatum {
+public class MDatum {
     public static void main(String[] args) {
 
         Kucing k1 = new Anggora("Milo", 3.5);
