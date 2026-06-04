@@ -13,7 +13,7 @@ package com.mycompany.ekspresilambda;
  * File         : DiskonLambda.java
  * Deskripsi    : Ekspresi lambda dasar, digunakan untuk menghitung diskon.
  * Pembuat      : Gregorius Septiano Ariadi / 24060124120026
- * Tanggal      : Kamis, 28 Mei 2026
+ * Tanggal      : Kamis, 4 Juni 2026
  */
 
 interface IDiskon{

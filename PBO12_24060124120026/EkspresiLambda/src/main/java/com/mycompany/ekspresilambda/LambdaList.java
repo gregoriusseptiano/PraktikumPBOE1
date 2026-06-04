@@ -16,7 +16,7 @@ import java.util.ArrayList;
  * Deskripsi    : Implementasi lambda pada List, digunakan sebagai parameter
  *                pada method.
  * Pembuat      : Gregorius Septiano Ariadi / 24060124120026
- * Tanggal      : Kamis, 28 Mei 2026
+ * Tanggal      : Kamis, 4 Juni 2026
  */
 
 public class LambdaList {
